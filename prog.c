@@ -12,7 +12,7 @@ int main()
   scanf("%ms",&password);
   scanf("%ms",&hash);
 
-  char *cryptPassword = crypt(password, "salt");
+  char *cryptPassword = crypt(password, "00");
   if(cryptPassword == NULL){
     printf("Error");
     }else{
