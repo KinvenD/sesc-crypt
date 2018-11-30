@@ -14,12 +14,12 @@ int main()
 
   char *cryptPassword = crypt(password, "00");
   if(cryptPassword == NULL){
-    printf("Error");
+    printf("Error\n");
     }else{
       if(strcmp(cryptPassword, hash) == 0) {
-        printf("allow");
+        printf("allow\n");
       } else {
-        printf("deny");
+        printf("deny\n");
     }
   }
   free(password);
