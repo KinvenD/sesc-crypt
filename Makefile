@@ -1,7 +1,8 @@
+
 run: prog
 	./prog
-	
+
 prog: prog.c
-	gcc -Wall -std=c11 prog.c -o prog
+	gcc -Wall -std=c11 prog.c -o prog -lcrypt
 
 build: prog
