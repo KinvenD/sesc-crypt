@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 #include <crypt.h>
 
 int main()
